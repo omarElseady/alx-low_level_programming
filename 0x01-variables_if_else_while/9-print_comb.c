@@ -19,13 +19,13 @@ int main(void)
 		putchar(a + '0');
 		if (a == 9)
 		{
-			putchar(36);
 			break;
 		}
 		putchar(44);
 		putchar(' ');
 		a++;
 	}
+	putchar('\n');
 
 	return (0);
 }
