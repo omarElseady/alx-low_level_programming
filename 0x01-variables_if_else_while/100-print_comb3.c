@@ -11,22 +11,30 @@
 
 int main(void)
 {
-	
+	int i = 0, j = 0;
 
-	for (int i = 0 ; i < 10 ; i++)
+	while (i < 10)
 	{
-		for (int j = i + 1 ; j < 10 ; j++)
+		j = 0;
+		while (j < 10)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i == 8 && j == 9)
+			if (j != i && i < j)
 			{
-				break;
+
+				putchar(i + '0');
+				putchar(j + '0');
+				if (i == 8 && j == 9)
+				{
+					break;
+				}
+				putchar(44);
+				putchar(' ');
 			}
-			putchar(44);
-			putchar(' ');
+
+			j++;
 		}
 
+		i++;
 	}
 	putchar('\n');
 
