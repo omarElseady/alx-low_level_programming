@@ -1,17 +1,19 @@
 #include <stdio.h>
+
 /**
- *  * main -Entry point
- *   *
- *    * Description :A C program that prints with prinf funcyion.
- *     *
- *      * return: always 0(Succss)
- *       */
+ *main - entry point
+ *
+ *Description: digit from 0 to 9
+ *
+ *Return: 0 (success)
+ */
 
 int main(void)
 {
-		printf("size of a" ,sizof());
-		 printf("size of a" ,sizof());
-		  printf("size of a" ,sizof());
-		   printf("size of a" ,sizof(long long ));
-		    printf("size of a" ,sizof(float));
-			return (0);
+	printf("size of a char: %lu byte(s)\n", sizof(char));
+	printf("size of a int: %lu byte(s)\n", sizof(int));
+	printf("size of a long int: %lu byte(s)\n", sizof(long int));
+	printf("size of a long long int:%lu byte(s)\n", sizof(long long int));
+	printf("size of a float: %lu byte(s)\n", sizof(float));
+	return (0);
+}
