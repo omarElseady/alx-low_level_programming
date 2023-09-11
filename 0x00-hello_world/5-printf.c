@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
- * main -Entry point
+ **main - entry point
  *
- * Description :A C program that prints with prinf funcyion.
+ *Description: digit from 0 to 9
  *
- * return: always 0(Succss)
+ *Return: 0 (success)
  */
 
 int main(void)
