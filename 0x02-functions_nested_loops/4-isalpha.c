@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - omar maher
+ * _isalpha - omar maher
  *
  * @c: check input
  *
