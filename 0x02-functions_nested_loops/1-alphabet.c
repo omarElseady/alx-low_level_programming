@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- *main - entry point
- *
- *Description: write _putchar
- *
- *Return: 0 (success)
+ * print_alphabet - omar
  */
 
 void print_alphabet(void)
