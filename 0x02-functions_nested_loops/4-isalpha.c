@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - omar maher
+ * _islower - omar maher
  *
  * @c: check input
  *
@@ -14,9 +14,9 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	if (c >= 65&& c <= 90)
+	if (c >= 65 && c <= 90)
 	{
-		return(1);
-	}	
+		return (1);
+	}
 
 }
