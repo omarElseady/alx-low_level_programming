@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _islower - omar maher
+ * _isalpha - omar maher
  *
  * @c: check input
  *
  * Return: return 1 or 0
  */
 
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
