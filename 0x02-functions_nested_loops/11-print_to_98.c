@@ -8,7 +8,7 @@
  * Return: return 1 or
  */
 
-int pprint_to_98(int n)
+int print_to_98(int n)
 {
 	int i;
 
