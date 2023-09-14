@@ -18,6 +18,7 @@ void times_table(void)
 			sum++;
 			if (j * i <= 9)
 			{
+				_putchar(' ');
 				_putchar((j * i) + '0');
 			}
 			else
