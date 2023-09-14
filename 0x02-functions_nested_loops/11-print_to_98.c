@@ -14,7 +14,7 @@ int pprint_to_98(int n)
 
 	if (n > 98)
 	{
-		for (int i = 0; i < 98; i--)
+		for (int i = 0; i > 98; i--)
 		{
 			printf("%i, ", i);
 		}
