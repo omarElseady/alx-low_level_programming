@@ -11,8 +11,8 @@
 
 int add(int n, int a)
 {
-	    n = n + a;
+	  int sum = n + a;
 
-return (a);
+return (sum);
 
 }
