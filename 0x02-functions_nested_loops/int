@@ -1,0 +1,15 @@
+f (n > 98)
+    {
+        for (int i = 0; i < 98; i--)
+        {
+            printf("%i, ",i);
+        }
+    }
+    else
+    {
+        for (int i = 0; i < 98; i++)
+        {
+            printf("%i, ",i);
+        }
+    }
+    printf("98\n");:

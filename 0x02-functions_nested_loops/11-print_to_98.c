@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * add - omar maher
+ * print_to_98 - omar maher
  *
  * @n: check input
  *
  * Return: return 1 or
  */
 
-int add(int n)
+int pprint_to_98(int n)
 {
 	int i;
 
