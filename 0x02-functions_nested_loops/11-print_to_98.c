@@ -5,7 +5,6 @@
  *
  * @n: check input
  *
- * Return: return 1 or
  */
 
 int print_to_98(int n)
