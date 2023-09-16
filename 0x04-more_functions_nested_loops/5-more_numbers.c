@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - omar maher
+ * more_numbrs - omar maher
  *
  * Return: return 1 or 0
  */
