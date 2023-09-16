@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbrs - omar maher
+ * more_numbers - omar maher
  *
  * Return: return 1 or 0
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int i, j, num;
 
@@ -17,11 +17,12 @@ void print_most_numbers(void)
 			num = j;
 			if (j > 9)
 			{
-				_putchr(1 + '0');
+				_putchar(1 + '0');
 				num = j % 10;
 			}
+			 _putchar(num + '0');
 		}
-		_putchar(num + '0');
+		_putchar('\n');
 	}
 
 }
