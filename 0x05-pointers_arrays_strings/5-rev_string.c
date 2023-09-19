@@ -10,7 +10,7 @@
 
 void rev_string(char *s)
 {
-	intl, i;
+	int l, i;
 	char temp;
 
 	for (l = 0; s[l] != '\0'; ++l)
