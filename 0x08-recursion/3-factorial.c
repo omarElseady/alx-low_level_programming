@@ -8,7 +8,7 @@
  *      * Return: return 1 or 0
  */
 
-int factorial(int n);
+int factorial(int n)
 {
 	int fac = 0;
 
