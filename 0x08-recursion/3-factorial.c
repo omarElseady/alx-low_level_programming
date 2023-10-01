@@ -10,8 +10,6 @@
 
 int factorial(int n)
 {
-	int fac = 0;
-
 	if (n < 0)
 	{
 		return (-1);
