@@ -8,8 +8,8 @@
  *      * Return: return 1 or 0
  */
 
-int square(int n, int val);
-int _sqrt_recursion(int n);
+int square(int n, int val)
+int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
 }
