@@ -1,7 +1,7 @@
 #include "main.h"
 
  /**
-  *  * **alloc_grid- omar maher
+  *  **alloc_grid- omar maher
   *   *
   *    * @height1: om
   *     *
