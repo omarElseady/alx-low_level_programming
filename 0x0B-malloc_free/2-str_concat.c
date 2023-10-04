@@ -18,7 +18,7 @@ int _strlen(char *s)
 }
 
 /**
-  *  * *_strlen- omar maher
+  *  *str_concat- omar maher
   *   *
   *    * @s1: om
   *     *
