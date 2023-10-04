@@ -11,7 +11,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char 8n = malloc(size)
+	char *n = malloc(size)
 
 		if (size == 0 || n == 0)
 			return (0);
