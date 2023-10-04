@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int size = 0;
 
-	for (; s[siz] != '\0'; size++)
+	for (; s[size] != '\0'; size++)
 		;
 	return (size);
 }
@@ -39,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 	size1 = _strlen(s1);
 	size2 = _strlen(s2);
 	m = malloc((size1 + size2) * sizeof(char) + 1);
-	if (m == 0);
+	if (m == 0)
 	return(0);
 
 	for (i = 0; i <= size1 + size2; i++)
@@ -47,7 +47,7 @@ char *str_concat(char *s1, char *s2)
 		if (i < size1)
 			m[i] = s1[i];
 		else
-			m[i] = s2[i - size];
+			m[i] = s2[i - size1];
 	}
 	m[i] = '\0';
 	return (m);
