@@ -1,6 +1,6 @@
-#ifndef _SAM_H
-#define _SAM_H
+#ifndef _SUM_H
+#define _SUM_H
 
-#define SAM(x , y) ((x) + (y))
+#define SUM(x , y) ((x) + (y))
 
-#endif /* _SAM_H */
+#endif /* _SUM_H */
