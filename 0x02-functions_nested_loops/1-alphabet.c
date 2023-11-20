@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - omar
+ * print_alphabet -omar
+ * 
  */
 
 void print_alphabet(void)
@@ -10,8 +11,8 @@ void print_alphabet(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 }
