@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet -omar
- * 
+ *
  */
 
 void print_alphabet(void)
