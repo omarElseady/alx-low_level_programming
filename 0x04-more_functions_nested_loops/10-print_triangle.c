@@ -1,27 +1,34 @@
-#include "main.h"
+nclude "main.h"
 
 /**
- *  * print_triangle  - omar maher
- *   *
- *    * @size: check input
- *     *
- *      * Return: return 1 or 0
+ *  * print_triangle - prints a triangle, followed by a new line
+ *   * @size: size of the triangle
  */
-
 void print_triangle(int size)
 {
-
-      	for(int i = 0; i < size; i++)
+	if (size <= 0)
 	{
-		for(int k = 0; k < size - i - 1; k++)
+		_putchar('\n');
+	} else
+	{
+		int i, j;
+
+	
+		for (i = 1; i <= size; i++)
 		{
-			putchar(' ');
+			for (j = i; j < size; j++)
+			{
+				_putchar(' ');
+			}
+
+		
+			for (j = 1; j <= i; j++)
+			{
+				_putchar('#');
+			}
+
+		
+			_putchar('\n');
 		}
-		for(int j= (size - i); j <= 5; j++)
-		{
-			putchar('#');
-		}
-		putchar('\n');
 	}
-	return (0);
 }
